@@ -1,0 +1,35 @@
+const motivationalQuotes = [
+  "Push yourself, because no one else is going to do it for you.",
+  "Success starts with self-discipline.",
+  "Don’t limit your challenges. Challenge your limits.",
+  "Sweat is just fat crying.",
+  "The pain you feel today will be the strength you feel tomorrow.",
+  "Strive for progress, not perfection.",
+  "Your body can stand almost anything. It’s your mind you have to convince.",
+  "No excuses. Just results.",
+  "Wake up. Work out. Kick ass. Repeat.",
+  "The only bad workout is the one that didn’t happen.",
+  "Discipline is choosing what you want most over what you want now.",
+  "The harder you work for something, the greater you’ll feel when you achieve it.",
+  "You don’t have to be extreme, just consistent.",
+  "Fitness is not about being better than someone else. It’s about being better than you used to be.",
+  "Fall in love with taking care of yourself.",
+  "Excuses don’t burn calories.",
+  "It never gets easier, you just get stronger.",
+  "Train insane or remain the same.",
+  "Good things come to those who sweat.",
+  "Don’t wish for a good body. Work for it.",
+  "Pain is temporary. Pride is forever.",
+  "You are your only limit.",
+  "It’s going to be a journey, it’s not a sprint to get in shape.",
+  "Be stronger than your excuses.",
+  "When you feel like quitting, think about why you started.",
+  "Work hard in silence. Let success be your noise.",
+  "Champions are made, Not born.",
+  "Don’t stop when you’re tired. Stop when you’re done.",
+  "Hustle for that muscle.",
+  "Success is what comes after you stop making excuses."
+]
+
+
+export default motivationalQuotes;
