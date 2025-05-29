@@ -51,7 +51,7 @@ cp backend/.env.example backend/.env
 ```
 
 Then open `backend/.env` and fill in the required values:
-
+NOTE: look at the example.env!
 ```env
 DB_USER=postgres
 DB_PASSWORD=your_password
@@ -62,11 +62,29 @@ JWT_SECRET=your_jwt_secret
 OPENAI_API_KEY=your_openai_key
 ```
 
-3. **Run the app:**
+
+
+### 3. **Run the app**
 
 ```bash
+# Step 1: Build and start all containers
 docker-compose up --build
 ```
+
+Wait for the containers to start up, then run the database initialization:
+
+* **On Windows PowerShell:**
+
+```powershell
+Get-Content ./backend/init.sql | docker exec -i fitnest-db psql -U postgres -d FitNest
+```
+
+* **On macOS / Linux / other Unix shells:**
+
+```bash
+cat ./backend/init.sql | docker exec -i fitnest-db psql -U postgres -d FitNest
+```
+
 
 ---
 
