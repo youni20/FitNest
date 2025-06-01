@@ -85,7 +85,11 @@ Get-Content ./backend/init.sql | docker exec -i fitnest-db psql -U postgres -d F
 cat ./backend/init.sql | docker exec -i fitnest-db psql -U postgres -d FitNest
 ```
 
+Then go to:
 
+http://localhost:5173/
+
+(unless changed can be seen in Docker!)
 ---
 
 ### ✅ Services
